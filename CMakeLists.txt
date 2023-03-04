@@ -9,10 +9,10 @@ cmake_minimum_required(VERSION 3.2)
 project(LIBWEBM CXX)
 
 include(GNUInstallDirs)
-include("${CMAKE_CURRENT_SOURCE_DIR}/cmake/cxx_flags.cmake")
+include("${CMAKE_CURRENT_LIST_DIR}/cmake/cxx_flags.cmake")
 
 if(NOT BUILD_SHARED_LIBS)
-  include("${CMAKE_CURRENT_SOURCE_DIR}/cmake/msvc_runtime.cmake")
+  include("${CMAKE_CURRENT_LIST_DIR}/cmake/msvc_runtime.cmake")
 endif()
 
 # Build/test configuration flags.
