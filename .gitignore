@@ -32,4 +32,3 @@ vp9_level_stats_tests
 Makefile
 CMakeFiles
 CMakeCache.txt
-*.cmake
