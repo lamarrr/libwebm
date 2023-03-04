@@ -6,7 +6,7 @@
 # project authors may be found in the AUTHORS file in the root of the source
 # tree.
 cmake_minimum_required(VERSION 3.2)
-project(LIBWEBM CXX)
+project(Libwebm CXX)
 
 include(GNUInstallDirs)
 include("${CMAKE_CURRENT_LIST_DIR}/cmake/cxx_flags.cmake")
