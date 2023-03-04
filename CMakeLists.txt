@@ -215,6 +215,7 @@ target_include_directories(
   webm
   PUBLIC ${CMAKE_CURRENT_LIST_DIR}/include
   PRIVATE ${CMAKE_CURRENT_LIST_DIR}/src/webm_parser/include)
+set_target_properties(webm PROPERTIES CXX_STANDARD 11 CXX_STANDARD_REQUIRED ON)
 
 add_executable(mkvparser_sample ${mkvparser_sample_sources})
 target_link_libraries(mkvparser_sample LINK_PUBLIC webm)
